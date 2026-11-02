@@ -1,0 +1,98 @@
+
+{
+  "advisory_id": "HTP-DURGA-MATHA-2026-10",
+  "title": "Traffic Advisory - Durga Matha Idols Immersion",
+  "source": "Hyderabad Traffic Police",
+  "source_url": "https://echallan.tspolice.gov.in/htp/pdf/DURGAMATHAIDO.jpeg",
+  "published_notice_period": {
+    "start": "2026-10-21T15:00:00+05:30",
+    "end": "2026-10-24T06:00:00+05:30"
+  },
+  "status_as_of_2026_10_29": "historical_expired",
+  "affected_locations": [
+    "People's Plaza",
+    "Garden Point",
+    "Baby Ponds at Jalavihar",
+    "Sanjeevaiah Park"
+  ],
+  "diversions": [
+    {
+      "from": "Panjagutta and Raj Bhavan Road",
+      "towards": "Khairatabad Flyover",
+      "diversion_at": "V.V. Statue",
+      "alternative_route": ["Nirankari Junction"]
+    },
+    {
+      "from": "Nirankari Junction",
+      "towards": "Iqbal Minar",
+      "diversion_at": "Old Police Station, Saifabad",
+      "alternative_route": ["Ravindra Bharathi", "Masab Tank"]
+    },
+    {
+      "from": "Iqbal Minar",
+      "towards": "Secretariat Junction",
+      "diversion_at": "Telangana Thalli Starting Flyover",
+      "alternative_route": [
+        "Telangana Thalli Flyover",
+        "Lower Tank Bund"
+      ]
+    },
+    {
+      "from": "Khairatabad Bada Ganesh Lane / Mint Compound",
+      "towards": "Necklace Rotary",
+      "diversion_at": "Printing Press Junction",
+      "alternative_route": ["Mint Compound", "Rajiv Gandhi Statue"]
+    },
+    {
+      "from": "Upper Tank Bund",
+      "towards": "Secretariat Junction",
+      "diversion_at": "Old Ambedkar Statue",
+      "alternative_route": ["Liberty"]
+    },
+    {
+      "from": "Liberty",
+      "towards": "Secretariat Junction",
+      "restriction": "Traffic towards Secretariat Junction not allowed",
+      "alternative_route": [
+        "Old Ambedkar Statue",
+        "Secretariat Junction",
+        "NTR Marg",
+        "Necklace Road"
+      ],
+      "exception": "Only Matha idols allowed on the specified route"
+    },
+    {
+      "from": "Upper Tank Bund",
+      "towards": "Nallagutta Bridge / P.V. Marg (Necklace Road)",
+      "diversion_at": "Sonali Abdullah Masjid",
+      "alternative_route": [
+        "Karbala",
+        "Ranigunj",
+        "Minister Road"
+      ]
+    },
+    {
+      "from": "Ranigunj / Minister Road",
+      "towards": "Necklace Road",
+      "diversion_at": "Nallagutta X Roads",
+      "alternative_route": ["Minister Road", "Ranigunj"]
+    }
+  ],
+  "junctions_to_avoid": [
+    "V.V. Statue",
+    "Old P.S. Saifabad",
+    "Ravindra Bharathi",
+    "HTP Junction",
+    "AR Petrol Pump",
+    "BJR Statue Circle",
+    "Basheerbagh",
+    "Liberty",
+    "Old Ambedkar Statue",
+    "Upper Tank Bund",
+    "Nallagutta X Road"
+  ],
+  "expected_congestion": true,
+  "traffic_helpline": "9010203626",
+  "collection_method": "manual_from_official_advisory_image",
+  "verified_from_full_notice": true
+}

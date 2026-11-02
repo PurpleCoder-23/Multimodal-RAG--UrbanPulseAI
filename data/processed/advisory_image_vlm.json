@@ -1,0 +1,71 @@
+{
+  "document_id": "durga_matha_immersion_2026",
+  "source_type": "vlm_image_analysis",
+  "source_file": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+  "model": "qwen/qwen3.8-27b",
+  "analysis": {
+    "document_title": "TRAFFIC ADVISORY",
+    "issuing_authority": "Hyderabad Traffic Police",
+    "event": "Durga Matha Idols Immersion",
+    "validity_period": "From 15:00 hrs on 21.10.2026 To 06:00 hrs on 24.10.2026 (Early hours)",
+    "visual_layout": "The document is a vertical infographic. The top section contains the header with the police logo, title, event name, and validity dates. The middle section consists of a grid of 8 numbered boxes (1-8), each containing a photo of a location and text describing traffic diversions. The bottom section features a red banner titled 'JUNCTIONS TO AVOID' listing specific locations with map pins, followed by a footer with social media links and a helpline number.",
+    "traffic_diversions": [
+      {
+        "id": 1,
+        "instruction": "Traffic coming from Panjagutta and Raj Bhavan Road towards Khairatabad flyover will be diverted at V.V. Statue towards Nirankari Junction. Only Matha Idols will be allowed towards Khairatabad flyover."
+      },
+      {
+        "id": 2,
+        "instruction": "Traffic coming from Nirankari Junction towards Iqbal Minar will be diverted at Old P.S. Saifabad towards Ravindra Bharathi and Masabtank. Only Matha Idols will be allowed towards Iqbal Minar."
+      },
+      {
+        "id": 3,
+        "instruction": "Traffic coming from Iqbal Minar towards Secretariat Junction will be diverted at the Telangana Thalli Starting Flyover onto the Telangana Thalli Flyover towards Lower Tank Bund."
+      },
+      {
+        "id": 4,
+        "instruction": "Traffic coming from Khairtabad Bada Ganesh lane / Mint Compound will not be allowed towards Necklace Rotary and will be diverted at Printing Press Junction towards Mint Compound / Rajiv Gandhi Statue."
+      },
+      {
+        "id": 5,
+        "instruction": "Traffic coming from Upper Tank Bund towards Secretariat Junction will be diverted at Old Ambedkar Statue towards Liberty."
+      },
+      {
+        "id": 6,
+        "instruction": "Traffic coming from Liberty will not be allowed towards Secretariat Junction and will be diverted at Old Ambedkar Statue towards Upper Tank Bund. Only Matha Idols will be allowed towards Old Ambedkar Statue - Secretariat Junction - NTR Marg - Necklace Road."
+      },
+      {
+        "id": 7,
+        "instruction": "Traffic coming from Upper Tank towards Nallagutta Bridge and P.V. Marg (Necklace Road) will be diverted at Sonabi Abdullah Masjid towards Minister Road via Karbala - Ranigunj."
+      },
+      {
+        "id": 8,
+        "instruction": "Traffic coming from Ranigunj / Minister Road towards Necklace road will be diverted at Nallagutta 'X' roads towards Minister Road / Ranigunj."
+      }
+    ],
+    "junctions": [
+      "V.V. Statue",
+      "Old PS Saifabad",
+      "Ravindra Bharathi",
+      "HTP Junction",
+      "AR Petrol Pump",
+      "B.J.R. Statue Circle",
+      "Basheerbagh",
+      "Liberty",
+      "Old Ambedkar Statue",
+      "Upper Tank Bund",
+      "Nallagutta X Road"
+    ],
+    "visual_elements": [
+      "Hyderabad Traffic Police logo (shield with star and wheel).",
+      "Numbered circles (1-8) indicating specific diversion points.",
+      "Photographs of the specific junctions or statues mentioned in the text.",
+      "Yellow highlight boxes for specific exceptions (e.g., 'Only Matha Idols...').",
+      "Red banner with a warning triangle icon for 'JUNCTIONS TO AVOID'.",
+      "Map pin icons indicating locations in the bottom section.",
+      "Social media icons (Facebook, X) and a phone icon for the helpline.",
+      "Image of Goddess Durga in the header."
+    ],
+    "uncertainty_notes": "None. All text is legible and clear."
+  }
+}

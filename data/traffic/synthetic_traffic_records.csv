@@ -1,0 +1,501 @@
+record_id,simulation_time,location,road_type,speed_kmh,vehicles_per_minute,congestion_level,record_origin,is_real_observation
+SYN-0001,2026-10-26T15:12:00,Image Garden Road,residential,12.4,20,heavy,synthetic,false
+SYN-0002,2026-10-27T06:28:00,HITEC City-Kondapur Main Road,primary,32.2,9,light,synthetic,false
+SYN-0003,2026-10-26T11:52:00,Image Garden Road,residential,21.4,5,moderate,synthetic,false
+SYN-0004,2026-10-26T12:47:00,HITEC City Road,primary,35.5,35,light,synthetic,false
+SYN-0005,2026-10-26T03:37:00,Ayyappa Society Main Road,tertiary,26.0,29,light,synthetic,false
+SYN-0006,2026-10-28T13:19:00,HITEC City-Kondapur Main Road,primary,39.4,3,light,synthetic,false
+SYN-0007,2026-10-26T21:47:00,Road Number 13,residential,21.2,24,moderate,synthetic,false
+SYN-0008,2026-10-26T21:13:00,Inorbit Mall Road,secondary,25.4,24,light,synthetic,false
+SYN-0009,2026-10-26T12:39:00,HITEC City Road,primary,38.1,25,light,synthetic,false
+SYN-0010,2026-10-27T22:57:00,Road Number 13,residential,19.7,5,moderate,synthetic,false
+SYN-0011,2026-10-28T14:43:00,Image Garden Road,residential,20.6,27,moderate,synthetic,false
+SYN-0012,2026-10-27T16:01:00,HITEC City Road,primary,45.3,26,light,synthetic,false
+SYN-0013,2026-10-27T02:15:00,Ayyappa Society Main Road,tertiary,28.3,5,light,synthetic,false
+SYN-0014,2026-10-27T07:06:00,Image Garden Road,residential,24.4,8,moderate,synthetic,false
+SYN-0015,2026-10-27T07:47:00,Road Number 13,residential,23.9,27,moderate,synthetic,false
+SYN-0016,2026-10-28T13:54:00,Inorbit Mall Road,secondary,32.2,26,light,synthetic,false
+SYN-0017,2026-10-28T02:32:00,HITEC City-Kondapur Main Road,primary,35.7,20,light,synthetic,false
+SYN-0018,2026-10-26T09:44:00,Image Garden Road,residential,5,18,heavy,synthetic,false
+SYN-0019,2026-10-28T15:06:00,HITEC City-Kondapur Main Road,primary,36.1,17,light,synthetic,false
+SYN-0020,2026-10-27T20:16:00,Image Garden Road,residential,11.0,17,heavy,synthetic,false
+SYN-0021,2026-10-26T04:22:00,Road Number 13,residential,22.9,28,moderate,synthetic,false
+SYN-0022,2026-10-26T09:02:00,Inorbit Mall Road,secondary,30.0,23,light,synthetic,false
+SYN-0023,2026-10-28T20:09:00,HITEC City-Kondapur Main Road,primary,35.7,32,light,synthetic,false
+SYN-0024,2026-10-27T12:09:00,HITEC City-Kondapur Main Road,primary,32.2,19,light,synthetic,false
+SYN-0025,2026-10-28T10:29:00,Image Garden Road,residential,5,17,heavy,synthetic,false
+SYN-0026,2026-10-28T21:34:00,HITEC City-Kondapur Main Road,primary,37.9,6,light,synthetic,false
+SYN-0027,2026-10-26T14:58:00,Road Number 13,residential,12.4,13,heavy,synthetic,false
+SYN-0028,2026-10-28T09:38:00,Road Number 13,residential,5.2,32,heavy,synthetic,false
+SYN-0029,2026-10-27T10:19:00,Ayyappa Society Main Road,tertiary,16.1,3,moderate,synthetic,false
+SYN-0030,2026-10-26T15:38:00,Image Garden Road,residential,22.9,20,moderate,synthetic,false
+SYN-0031,2026-10-27T22:26:00,Road Number 13,residential,11.8,30,heavy,synthetic,false
+SYN-0032,2026-10-28T13:56:00,HITEC City-Kondapur Main Road,primary,30.1,19,light,synthetic,false
+SYN-0033,2026-10-27T00:23:00,Ayyappa Society Main Road,tertiary,25.1,9,light,synthetic,false
+SYN-0034,2026-10-27T16:44:00,Road Number 13,residential,23.5,35,moderate,synthetic,false
+SYN-0035,2026-10-27T03:09:00,Ayyappa Society Main Road,tertiary,19.4,13,moderate,synthetic,false
+SYN-0036,2026-10-26T00:04:00,Ayyappa Society Main Road,tertiary,26.6,34,light,synthetic,false
+SYN-0037,2026-10-26T15:16:00,HITEC City Road,primary,46.9,22,light,synthetic,false
+SYN-0038,2026-10-26T07:54:00,HITEC City-Kondapur Main Road,primary,33.9,8,light,synthetic,false
+SYN-0039,2026-10-28T18:21:00,HITEC City Road,primary,34.5,11,light,synthetic,false
+SYN-0040,2026-10-28T16:53:00,HITEC City-Kondapur Main Road,primary,45.1,13,light,synthetic,false
+SYN-0041,2026-10-28T09:46:00,Inorbit Mall Road,secondary,22.2,15,moderate,synthetic,false
+SYN-0042,2026-10-27T18:33:00,Image Garden Road,residential,13.8,26,heavy,synthetic,false
+SYN-0043,2026-10-28T22:39:00,Durgam Cheruvu Road,secondary,31.2,18,light,synthetic,false
+SYN-0044,2026-10-26T08:44:00,HITEC City-Kondapur Main Road,primary,31.0,17,light,synthetic,false
+SYN-0045,2026-10-27T06:04:00,Ayyappa Society Main Road,tertiary,17.1,6,moderate,synthetic,false
+SYN-0046,2026-10-26T09:12:00,HITEC City-Kondapur Main Road,primary,29.7,7,light,synthetic,false
+SYN-0047,2026-10-27T08:29:00,Ayyappa Society Main Road,tertiary,17.0,11,moderate,synthetic,false
+SYN-0048,2026-10-28T16:32:00,Image Garden Road,residential,15.9,33,moderate,synthetic,false
+SYN-0049,2026-10-28T07:34:00,Road Number 13,residential,13.0,9,heavy,synthetic,false
+SYN-0050,2026-10-28T10:51:00,Image Garden Road,residential,10.0,6,heavy,synthetic,false
+SYN-0051,2026-10-26T13:26:00,Image Garden Road,residential,13.0,24,heavy,synthetic,false
+SYN-0052,2026-10-26T14:55:00,Road Number 13,residential,14.0,15,heavy,synthetic,false
+SYN-0053,2026-10-28T13:15:00,Ayyappa Society Main Road,tertiary,19.2,14,moderate,synthetic,false
+SYN-0054,2026-10-28T15:09:00,Inorbit Mall Road,secondary,26.0,7,light,synthetic,false
+SYN-0055,2026-10-26T13:22:00,Durgam Cheruvu Road,secondary,24.8,3,moderate,synthetic,false
+SYN-0056,2026-10-27T08:16:00,HITEC City Road,primary,33.1,16,light,synthetic,false
+SYN-0057,2026-10-28T06:45:00,Road Number 13,residential,24.4,13,moderate,synthetic,false
+SYN-0058,2026-10-26T00:17:00,Durgam Cheruvu Road,secondary,39.8,19,light,synthetic,false
+SYN-0059,2026-10-28T14:07:00,Road Number 13,residential,14.6,34,heavy,synthetic,false
+SYN-0060,2026-10-27T01:55:00,HITEC City-Kondapur Main Road,primary,34.7,6,light,synthetic,false
+SYN-0061,2026-10-26T08:19:00,Ayyappa Society Main Road,tertiary,5.4,33,heavy,synthetic,false
+SYN-0062,2026-10-26T21:29:00,Ayyappa Society Main Road,tertiary,17.9,35,moderate,synthetic,false
+SYN-0063,2026-10-27T01:22:00,HITEC City Road,primary,33.1,7,light,synthetic,false
+SYN-0064,2026-10-27T08:06:00,Image Garden Road,residential,18.0,18,moderate,synthetic,false
+SYN-0065,2026-10-26T05:25:00,Ayyappa Society Main Road,tertiary,26.9,29,light,synthetic,false
+SYN-0066,2026-10-28T23:22:00,Image Garden Road,residential,17.1,19,moderate,synthetic,false
+SYN-0067,2026-10-27T18:53:00,HITEC City-Kondapur Main Road,primary,28.9,22,light,synthetic,false
+SYN-0068,2026-10-27T19:10:00,Durgam Cheruvu Road,secondary,24.7,3,moderate,synthetic,false
+SYN-0069,2026-10-26T13:39:00,Durgam Cheruvu Road,secondary,25.2,16,light,synthetic,false
+SYN-0070,2026-10-27T12:12:00,Ayyappa Society Main Road,tertiary,19.1,25,moderate,synthetic,false
+SYN-0071,2026-10-27T09:21:00,HITEC City Road,primary,25.8,22,light,synthetic,false
+SYN-0072,2026-10-26T01:04:00,Ayyappa Society Main Road,tertiary,27.7,22,light,synthetic,false
+SYN-0073,2026-10-26T14:08:00,Image Garden Road,residential,27.0,11,light,synthetic,false
+SYN-0074,2026-10-26T15:45:00,Inorbit Mall Road,secondary,36.2,12,light,synthetic,false
+SYN-0075,2026-10-27T14:28:00,Inorbit Mall Road,secondary,31.7,24,light,synthetic,false
+SYN-0076,2026-10-27T12:02:00,HITEC City-Kondapur Main Road,primary,38.1,19,light,synthetic,false
+SYN-0077,2026-10-26T06:56:00,Road Number 13,residential,11.5,30,heavy,synthetic,false
+SYN-0078,2026-10-27T13:46:00,Road Number 13,residential,10.7,24,heavy,synthetic,false
+SYN-0079,2026-10-26T17:51:00,Road Number 13,residential,5,31,heavy,synthetic,false
+SYN-0080,2026-10-28T10:23:00,Ayyappa Society Main Road,tertiary,8.2,12,heavy,synthetic,false
+SYN-0081,2026-10-26T04:55:00,Ayyappa Society Main Road,tertiary,30.4,12,light,synthetic,false
+SYN-0082,2026-10-26T17:24:00,Durgam Cheruvu Road,secondary,24.4,5,moderate,synthetic,false
+SYN-0083,2026-10-27T04:40:00,Inorbit Mall Road,secondary,32.9,9,light,synthetic,false
+SYN-0084,2026-10-28T07:29:00,Inorbit Mall Road,secondary,37.6,12,light,synthetic,false
+SYN-0085,2026-10-26T22:11:00,HITEC City-Kondapur Main Road,primary,45.6,14,light,synthetic,false
+SYN-0086,2026-10-26T03:23:00,Durgam Cheruvu Road,secondary,26.9,24,light,synthetic,false
+SYN-0087,2026-10-28T08:12:00,Road Number 13,residential,10.8,18,heavy,synthetic,false
+SYN-0088,2026-10-26T21:44:00,Inorbit Mall Road,secondary,34.6,9,light,synthetic,false
+SYN-0089,2026-10-26T05:17:00,Durgam Cheruvu Road,secondary,37.7,17,light,synthetic,false
+SYN-0090,2026-10-28T14:50:00,HITEC City-Kondapur Main Road,primary,35.6,17,light,synthetic,false
+SYN-0091,2026-10-26T03:13:00,HITEC City-Kondapur Main Road,primary,40.6,28,light,synthetic,false
+SYN-0092,2026-10-27T14:02:00,Inorbit Mall Road,secondary,35.8,20,light,synthetic,false
+SYN-0093,2026-10-28T21:33:00,Inorbit Mall Road,secondary,28.4,24,light,synthetic,false
+SYN-0094,2026-10-26T15:44:00,HITEC City Road,primary,46.0,19,light,synthetic,false
+SYN-0095,2026-10-27T12:14:00,HITEC City-Kondapur Main Road,primary,30.6,30,light,synthetic,false
+SYN-0096,2026-10-27T18:49:00,Inorbit Mall Road,secondary,28.4,10,light,synthetic,false
+SYN-0097,2026-10-27T01:57:00,Durgam Cheruvu Road,secondary,28.1,30,light,synthetic,false
+SYN-0098,2026-10-28T22:59:00,HITEC City Road,primary,46.8,15,light,synthetic,false
+SYN-0099,2026-10-28T10:53:00,Inorbit Mall Road,secondary,26.9,24,light,synthetic,false
+SYN-0100,2026-10-27T18:51:00,Ayyappa Society Main Road,tertiary,7.4,22,heavy,synthetic,false
+SYN-0101,2026-10-27T18:13:00,Ayyappa Society Main Road,tertiary,10.5,21,heavy,synthetic,false
+SYN-0102,2026-10-26T17:22:00,Ayyappa Society Main Road,tertiary,20.7,27,moderate,synthetic,false
+SYN-0103,2026-10-26T23:45:00,Image Garden Road,residential,21.8,22,moderate,synthetic,false
+SYN-0104,2026-10-26T00:03:00,Durgam Cheruvu Road,secondary,28.9,16,light,synthetic,false
+SYN-0105,2026-10-27T19:59:00,Durgam Cheruvu Road,secondary,21.4,16,moderate,synthetic,false
+SYN-0106,2026-10-28T16:36:00,Ayyappa Society Main Road,tertiary,29.7,13,light,synthetic,false
+SYN-0107,2026-10-26T11:34:00,Image Garden Road,residential,16.5,24,moderate,synthetic,false
+SYN-0108,2026-10-27T08:04:00,HITEC City Road,primary,23.9,15,moderate,synthetic,false
+SYN-0109,2026-10-26T03:20:00,HITEC City-Kondapur Main Road,primary,30.7,33,light,synthetic,false
+SYN-0110,2026-10-26T09:56:00,Ayyappa Society Main Road,tertiary,21.6,15,moderate,synthetic,false
+SYN-0111,2026-10-28T04:25:00,Image Garden Road,residential,19.9,18,moderate,synthetic,false
+SYN-0112,2026-10-26T00:45:00,HITEC City-Kondapur Main Road,primary,44.3,9,light,synthetic,false
+SYN-0113,2026-10-28T10:02:00,Road Number 13,residential,15.7,32,moderate,synthetic,false
+SYN-0114,2026-10-27T10:01:00,HITEC City Road,primary,19.8,11,moderate,synthetic,false
+SYN-0115,2026-10-28T15:26:00,Road Number 13,residential,20.7,23,moderate,synthetic,false
+SYN-0116,2026-10-28T12:25:00,Road Number 13,residential,19.8,35,moderate,synthetic,false
+SYN-0117,2026-10-28T12:52:00,Durgam Cheruvu Road,secondary,38.4,33,light,synthetic,false
+SYN-0118,2026-10-27T11:23:00,Durgam Cheruvu Road,secondary,36.0,20,light,synthetic,false
+SYN-0119,2026-10-28T23:10:00,Road Number 13,residential,17.8,18,moderate,synthetic,false
+SYN-0120,2026-10-28T12:03:00,Inorbit Mall Road,secondary,23.2,21,moderate,synthetic,false
+SYN-0121,2026-10-27T13:05:00,HITEC City-Kondapur Main Road,primary,35.4,8,light,synthetic,false
+SYN-0122,2026-10-26T20:35:00,HITEC City-Kondapur Main Road,primary,33.8,16,light,synthetic,false
+SYN-0123,2026-10-28T08:38:00,HITEC City Road,primary,31.6,29,light,synthetic,false
+SYN-0124,2026-10-27T04:14:00,HITEC City Road,primary,45.3,27,light,synthetic,false
+SYN-0125,2026-10-26T02:40:00,Road Number 13,residential,23.7,27,moderate,synthetic,false
+SYN-0126,2026-10-26T00:48:00,Durgam Cheruvu Road,secondary,39.1,22,light,synthetic,false
+SYN-0127,2026-10-28T05:14:00,Road Number 13,residential,23.7,29,moderate,synthetic,false
+SYN-0128,2026-10-27T06:06:00,Ayyappa Society Main Road,tertiary,24.8,20,moderate,synthetic,false
+SYN-0129,2026-10-28T18:18:00,Durgam Cheruvu Road,secondary,24.1,28,moderate,synthetic,false
+SYN-0130,2026-10-26T22:32:00,Image Garden Road,residential,25.4,11,light,synthetic,false
+SYN-0131,2026-10-26T03:40:00,Ayyappa Society Main Road,tertiary,31.5,4,light,synthetic,false
+SYN-0132,2026-10-28T10:31:00,HITEC City Road,primary,33.0,6,light,synthetic,false
+SYN-0133,2026-10-28T03:45:00,Inorbit Mall Road,secondary,27.2,32,light,synthetic,false
+SYN-0134,2026-10-27T22:04:00,Inorbit Mall Road,secondary,34.2,27,light,synthetic,false
+SYN-0135,2026-10-28T09:33:00,Inorbit Mall Road,secondary,15.8,4,moderate,synthetic,false
+SYN-0136,2026-10-26T07:06:00,Image Garden Road,residential,28.0,25,light,synthetic,false
+SYN-0137,2026-10-26T09:22:00,HITEC City-Kondapur Main Road,primary,27.6,4,light,synthetic,false
+SYN-0138,2026-10-27T03:13:00,HITEC City-Kondapur Main Road,primary,43.4,12,light,synthetic,false
+SYN-0139,2026-10-26T17:14:00,HITEC City-Kondapur Main Road,primary,22.1,16,moderate,synthetic,false
+SYN-0140,2026-10-27T10:59:00,Durgam Cheruvu Road,secondary,14.0,10,heavy,synthetic,false
+SYN-0141,2026-10-26T22:21:00,Road Number 13,residential,25.4,9,light,synthetic,false
+SYN-0142,2026-10-26T03:30:00,Ayyappa Society Main Road,tertiary,31.9,27,light,synthetic,false
+SYN-0143,2026-10-27T03:04:00,Durgam Cheruvu Road,secondary,25.2,18,light,synthetic,false
+SYN-0144,2026-10-27T17:10:00,HITEC City Road,primary,28.1,10,light,synthetic,false
+SYN-0145,2026-10-26T05:36:00,Road Number 13,residential,15.6,30,moderate,synthetic,false
+SYN-0146,2026-10-28T02:35:00,Image Garden Road,residential,13.1,24,heavy,synthetic,false
+SYN-0147,2026-10-28T09:21:00,HITEC City Road,primary,20.5,26,moderate,synthetic,false
+SYN-0148,2026-10-28T14:46:00,Image Garden Road,residential,23.3,30,moderate,synthetic,false
+SYN-0149,2026-10-28T23:14:00,HITEC City-Kondapur Main Road,primary,45.4,20,light,synthetic,false
+SYN-0150,2026-10-28T18:00:00,Ayyappa Society Main Road,tertiary,20.6,20,moderate,synthetic,false
+SYN-0151,2026-10-27T09:31:00,Inorbit Mall Road,secondary,10.1,31,heavy,synthetic,false
+SYN-0152,2026-10-28T15:26:00,HITEC City-Kondapur Main Road,primary,39.1,27,light,synthetic,false
+SYN-0153,2026-10-26T03:55:00,Inorbit Mall Road,secondary,29.9,23,light,synthetic,false
+SYN-0154,2026-10-28T18:34:00,HITEC City-Kondapur Main Road,primary,35.6,24,light,synthetic,false
+SYN-0155,2026-10-27T13:43:00,Inorbit Mall Road,secondary,30.9,15,light,synthetic,false
+SYN-0156,2026-10-27T08:57:00,HITEC City Road,primary,27.6,18,light,synthetic,false
+SYN-0157,2026-10-28T17:00:00,Image Garden Road,residential,8.4,4,heavy,synthetic,false
+SYN-0158,2026-10-27T16:10:00,HITEC City Road,primary,35.5,18,light,synthetic,false
+SYN-0159,2026-10-28T02:23:00,Inorbit Mall Road,secondary,29.6,25,light,synthetic,false
+SYN-0160,2026-10-27T21:09:00,Durgam Cheruvu Road,secondary,29.6,32,light,synthetic,false
+SYN-0161,2026-10-27T17:51:00,Inorbit Mall Road,secondary,16.4,15,moderate,synthetic,false
+SYN-0162,2026-10-26T16:19:00,Inorbit Mall Road,secondary,33.9,14,light,synthetic,false
+SYN-0163,2026-10-27T05:32:00,HITEC City-Kondapur Main Road,primary,41.8,20,light,synthetic,false
+SYN-0164,2026-10-28T23:37:00,Image Garden Road,residential,21.5,9,moderate,synthetic,false
+SYN-0165,2026-10-27T02:30:00,Road Number 13,residential,14.7,26,heavy,synthetic,false
+SYN-0166,2026-10-27T17:16:00,HITEC City-Kondapur Main Road,primary,33.4,20,light,synthetic,false
+SYN-0167,2026-10-26T07:26:00,HITEC City Road,primary,40.9,11,light,synthetic,false
+SYN-0168,2026-10-28T19:01:00,Image Garden Road,residential,6.2,21,heavy,synthetic,false
+SYN-0169,2026-10-28T17:21:00,Durgam Cheruvu Road,secondary,17.5,6,moderate,synthetic,false
+SYN-0170,2026-10-28T17:13:00,Inorbit Mall Road,secondary,16.9,34,moderate,synthetic,false
+SYN-0171,2026-10-26T07:19:00,HITEC City Road,primary,34.4,22,light,synthetic,false
+SYN-0172,2026-10-27T09:53:00,HITEC City Road,primary,38.0,17,light,synthetic,false
+SYN-0173,2026-10-28T23:20:00,Road Number 13,residential,16.1,31,moderate,synthetic,false
+SYN-0174,2026-10-28T10:32:00,Inorbit Mall Road,secondary,23.9,9,moderate,synthetic,false
+SYN-0175,2026-10-27T04:22:00,Road Number 13,residential,20.0,19,moderate,synthetic,false
+SYN-0176,2026-10-26T11:05:00,Image Garden Road,residential,14.5,14,heavy,synthetic,false
+SYN-0177,2026-10-26T10:14:00,Ayyappa Society Main Road,tertiary,17.0,33,moderate,synthetic,false
+SYN-0178,2026-10-26T04:27:00,Inorbit Mall Road,secondary,25.7,21,light,synthetic,false
+SYN-0179,2026-10-28T13:59:00,Image Garden Road,residential,13.1,17,heavy,synthetic,false
+SYN-0180,2026-10-27T03:00:00,Inorbit Mall Road,secondary,28.8,17,light,synthetic,false
+SYN-0181,2026-10-26T20:20:00,Image Garden Road,residential,11.1,7,heavy,synthetic,false
+SYN-0182,2026-10-26T22:39:00,HITEC City Road,primary,44.7,21,light,synthetic,false
+SYN-0183,2026-10-26T16:58:00,Durgam Cheruvu Road,secondary,31.5,22,light,synthetic,false
+SYN-0184,2026-10-28T06:57:00,Image Garden Road,residential,27.1,35,light,synthetic,false
+SYN-0185,2026-10-28T19:25:00,Ayyappa Society Main Road,tertiary,17.2,30,moderate,synthetic,false
+SYN-0186,2026-10-27T20:00:00,Image Garden Road,residential,5,17,heavy,synthetic,false
+SYN-0187,2026-10-26T02:49:00,Image Garden Road,residential,28.0,20,light,synthetic,false
+SYN-0188,2026-10-26T05:29:00,Ayyappa Society Main Road,tertiary,29.2,14,light,synthetic,false
+SYN-0189,2026-10-28T22:51:00,Durgam Cheruvu Road,secondary,34.4,20,light,synthetic,false
+SYN-0190,2026-10-28T11:30:00,HITEC City-Kondapur Main Road,primary,40.2,34,light,synthetic,false
+SYN-0191,2026-10-28T16:10:00,HITEC City Road,primary,37.6,24,light,synthetic,false
+SYN-0192,2026-10-26T14:16:00,Inorbit Mall Road,secondary,35.7,24,light,synthetic,false
+SYN-0193,2026-10-28T19:38:00,Durgam Cheruvu Road,secondary,31.2,5,light,synthetic,false
+SYN-0194,2026-10-26T12:01:00,Durgam Cheruvu Road,secondary,29.0,23,light,synthetic,false
+SYN-0195,2026-10-28T07:11:00,HITEC City Road,primary,45.8,3,light,synthetic,false
+SYN-0196,2026-10-28T15:04:00,Image Garden Road,residential,18.6,15,moderate,synthetic,false
+SYN-0197,2026-10-28T01:23:00,Ayyappa Society Main Road,tertiary,27.0,34,light,synthetic,false
+SYN-0198,2026-10-28T12:21:00,Image Garden Road,residential,24.2,16,moderate,synthetic,false
+SYN-0199,2026-10-26T17:53:00,Inorbit Mall Road,secondary,14.7,34,heavy,synthetic,false
+SYN-0200,2026-10-26T03:56:00,HITEC City Road,primary,47.6,18,light,synthetic,false
+SYN-0201,2026-10-26T21:37:00,Image Garden Road,residential,17.0,3,moderate,synthetic,false
+SYN-0202,2026-10-28T07:42:00,Ayyappa Society Main Road,tertiary,18.5,10,moderate,synthetic,false
+SYN-0203,2026-10-26T16:02:00,Durgam Cheruvu Road,secondary,34.4,12,light,synthetic,false
+SYN-0204,2026-10-27T15:50:00,Durgam Cheruvu Road,secondary,32.1,20,light,synthetic,false
+SYN-0205,2026-10-28T17:52:00,Durgam Cheruvu Road,secondary,13.1,12,heavy,synthetic,false
+SYN-0206,2026-10-27T02:01:00,Durgam Cheruvu Road,secondary,38.7,35,light,synthetic,false
+SYN-0207,2026-10-26T18:38:00,Image Garden Road,residential,5,29,heavy,synthetic,false
+SYN-0208,2026-10-28T21:19:00,Inorbit Mall Road,secondary,26.3,3,light,synthetic,false
+SYN-0209,2026-10-27T16:45:00,Inorbit Mall Road,secondary,35.4,34,light,synthetic,false
+SYN-0210,2026-10-26T20:17:00,Road Number 13,residential,8.3,24,heavy,synthetic,false
+SYN-0211,2026-10-28T03:30:00,Ayyappa Society Main Road,tertiary,24.3,23,moderate,synthetic,false
+SYN-0212,2026-10-27T01:45:00,Road Number 13,residential,25.7,18,light,synthetic,false
+SYN-0213,2026-10-28T04:17:00,Ayyappa Society Main Road,tertiary,20.7,29,moderate,synthetic,false
+SYN-0214,2026-10-27T19:26:00,HITEC City Road,primary,30.8,27,light,synthetic,false
+SYN-0215,2026-10-26T20:46:00,Durgam Cheruvu Road,secondary,14.6,35,heavy,synthetic,false
+SYN-0216,2026-10-27T21:19:00,Ayyappa Society Main Road,tertiary,30.9,31,light,synthetic,false
+SYN-0217,2026-10-28T23:48:00,HITEC City Road,primary,46.6,3,light,synthetic,false
+SYN-0218,2026-10-26T19:40:00,Image Garden Road,residential,13.4,12,heavy,synthetic,false
+SYN-0219,2026-10-28T16:06:00,HITEC City Road,primary,44.5,19,light,synthetic,false
+SYN-0220,2026-10-28T06:16:00,Inorbit Mall Road,secondary,32.4,24,light,synthetic,false
+SYN-0221,2026-10-28T03:53:00,Road Number 13,residential,25.3,34,light,synthetic,false
+SYN-0222,2026-10-26T04:54:00,Road Number 13,residential,19.9,18,moderate,synthetic,false
+SYN-0223,2026-10-27T15:14:00,Image Garden Road,residential,28.0,8,light,synthetic,false
+SYN-0224,2026-10-26T13:26:00,Durgam Cheruvu Road,secondary,36.2,9,light,synthetic,false
+SYN-0225,2026-10-26T22:42:00,Durgam Cheruvu Road,secondary,35.1,4,light,synthetic,false
+SYN-0226,2026-10-27T20:17:00,HITEC City Road,primary,23.7,26,moderate,synthetic,false
+SYN-0227,2026-10-26T19:52:00,Durgam Cheruvu Road,secondary,23.2,14,moderate,synthetic,false
+SYN-0228,2026-10-26T23:54:00,HITEC City-Kondapur Main Road,primary,31.3,27,light,synthetic,false
+SYN-0229,2026-10-27T08:52:00,Ayyappa Society Main Road,tertiary,16.4,17,moderate,synthetic,false
+SYN-0230,2026-10-27T10:40:00,Durgam Cheruvu Road,secondary,25.1,32,light,synthetic,false
+SYN-0231,2026-10-26T21:34:00,Inorbit Mall Road,secondary,23.2,25,moderate,synthetic,false
+SYN-0232,2026-10-27T16:50:00,Ayyappa Society Main Road,tertiary,27.2,30,light,synthetic,false
+SYN-0233,2026-10-27T10:08:00,Image Garden Road,residential,7.3,27,heavy,synthetic,false
+SYN-0234,2026-10-28T17:58:00,Road Number 13,residential,10.0,25,heavy,synthetic,false
+SYN-0235,2026-10-27T16:23:00,Ayyappa Society Main Road,tertiary,32.9,21,light,synthetic,false
+SYN-0236,2026-10-28T06:02:00,HITEC City Road,primary,36.4,6,light,synthetic,false
+SYN-0237,2026-10-28T19:49:00,Ayyappa Society Main Road,tertiary,18.1,17,moderate,synthetic,false
+SYN-0238,2026-10-28T00:06:00,Ayyappa Society Main Road,tertiary,20.5,15,moderate,synthetic,false
+SYN-0239,2026-10-27T10:13:00,Ayyappa Society Main Road,tertiary,16.8,11,moderate,synthetic,false
+SYN-0240,2026-10-26T13:15:00,Image Garden Road,residential,26.5,5,light,synthetic,false
+SYN-0241,2026-10-28T12:11:00,Inorbit Mall Road,secondary,22.5,26,moderate,synthetic,false
+SYN-0242,2026-10-26T17:56:00,Image Garden Road,residential,10.8,29,heavy,synthetic,false
+SYN-0243,2026-10-27T03:24:00,HITEC City-Kondapur Main Road,primary,32.1,26,light,synthetic,false
+SYN-0244,2026-10-28T20:30:00,Ayyappa Society Main Road,tertiary,16.2,19,moderate,synthetic,false
+SYN-0245,2026-10-28T17:47:00,Road Number 13,residential,5,24,heavy,synthetic,false
+SYN-0246,2026-10-26T15:43:00,Road Number 13,residential,17.5,7,moderate,synthetic,false
+SYN-0247,2026-10-27T06:48:00,HITEC City-Kondapur Main Road,primary,43.8,28,light,synthetic,false
+SYN-0248,2026-10-28T01:56:00,Road Number 13,residential,11.4,28,heavy,synthetic,false
+SYN-0249,2026-10-27T12:06:00,HITEC City Road,primary,40.6,32,light,synthetic,false
+SYN-0250,2026-10-27T11:47:00,Inorbit Mall Road,secondary,31.4,26,light,synthetic,false
+SYN-0251,2026-10-27T07:55:00,HITEC City Road,primary,39.5,23,light,synthetic,false
+SYN-0252,2026-10-27T06:13:00,Ayyappa Society Main Road,tertiary,27.4,32,light,synthetic,false
+SYN-0253,2026-10-27T17:15:00,Image Garden Road,residential,5,5,heavy,synthetic,false
+SYN-0254,2026-10-27T17:33:00,HITEC City Road,primary,18.9,18,moderate,synthetic,false
+SYN-0255,2026-10-26T18:31:00,Ayyappa Society Main Road,tertiary,14.0,29,heavy,synthetic,false
+SYN-0256,2026-10-26T21:05:00,Ayyappa Society Main Road,tertiary,31.2,9,light,synthetic,false
+SYN-0257,2026-10-28T18:48:00,Road Number 13,residential,13.9,20,heavy,synthetic,false
+SYN-0258,2026-10-28T02:35:00,HITEC City Road,primary,35.5,31,light,synthetic,false
+SYN-0259,2026-10-28T01:31:00,HITEC City-Kondapur Main Road,primary,31.6,26,light,synthetic,false
+SYN-0260,2026-10-28T00:58:00,Ayyappa Society Main Road,tertiary,18.0,20,moderate,synthetic,false
+SYN-0261,2026-10-26T16:40:00,HITEC City-Kondapur Main Road,primary,45.2,32,light,synthetic,false
+SYN-0262,2026-10-27T04:57:00,HITEC City Road,primary,42.3,4,light,synthetic,false
+SYN-0263,2026-10-27T21:32:00,HITEC City Road,primary,35.9,11,light,synthetic,false
+SYN-0264,2026-10-27T04:01:00,Road Number 13,residential,11.1,16,heavy,synthetic,false
+SYN-0265,2026-10-27T05:29:00,Ayyappa Society Main Road,tertiary,30.0,17,light,synthetic,false
+SYN-0266,2026-10-26T20:08:00,Inorbit Mall Road,secondary,18.6,20,moderate,synthetic,false
+SYN-0267,2026-10-26T19:45:00,Road Number 13,residential,5,14,heavy,synthetic,false
+SYN-0268,2026-10-26T03:31:00,HITEC City Road,primary,34.1,25,light,synthetic,false
+SYN-0269,2026-10-27T08:29:00,Road Number 13,residential,5,19,heavy,synthetic,false
+SYN-0270,2026-10-26T17:18:00,HITEC City Road,primary,28.0,7,light,synthetic,false
+SYN-0271,2026-10-28T13:12:00,Durgam Cheruvu Road,secondary,36.4,35,light,synthetic,false
+SYN-0272,2026-10-26T14:53:00,Ayyappa Society Main Road,tertiary,24.2,17,moderate,synthetic,false
+SYN-0273,2026-10-26T05:55:00,Ayyappa Society Main Road,tertiary,28.6,22,light,synthetic,false
+SYN-0274,2026-10-26T04:15:00,Durgam Cheruvu Road,secondary,25.0,33,light,synthetic,false
+SYN-0275,2026-10-28T06:50:00,Road Number 13,residential,16.8,9,moderate,synthetic,false
+SYN-0276,2026-10-28T12:33:00,Durgam Cheruvu Road,secondary,25.2,8,light,synthetic,false
+SYN-0277,2026-10-26T20:15:00,Inorbit Mall Road,secondary,20.7,23,moderate,synthetic,false
+SYN-0278,2026-10-27T16:15:00,Durgam Cheruvu Road,secondary,31.3,30,light,synthetic,false
+SYN-0279,2026-10-26T15:37:00,HITEC City Road,primary,45.6,16,light,synthetic,false
+SYN-0280,2026-10-28T13:39:00,Durgam Cheruvu Road,secondary,38.2,29,light,synthetic,false
+SYN-0281,2026-10-28T13:55:00,Inorbit Mall Road,secondary,28.4,9,light,synthetic,false
+SYN-0282,2026-10-28T10:16:00,Inorbit Mall Road,secondary,18.0,12,moderate,synthetic,false
+SYN-0283,2026-10-28T16:45:00,Image Garden Road,residential,13.1,8,heavy,synthetic,false
+SYN-0284,2026-10-28T10:57:00,HITEC City Road,primary,37.9,11,light,synthetic,false
+SYN-0285,2026-10-26T08:11:00,Ayyappa Society Main Road,tertiary,15.1,24,moderate,synthetic,false
+SYN-0286,2026-10-26T16:41:00,Image Garden Road,residential,18.6,30,moderate,synthetic,false
+SYN-0287,2026-10-26T07:01:00,Road Number 13,residential,25.5,22,light,synthetic,false
+SYN-0288,2026-10-26T14:08:00,Inorbit Mall Road,secondary,31.2,16,light,synthetic,false
+SYN-0289,2026-10-28T17:50:00,HITEC City-Kondapur Main Road,primary,24.5,26,moderate,synthetic,false
+SYN-0290,2026-10-27T14:02:00,HITEC City Road,primary,41.2,30,light,synthetic,false
+SYN-0291,2026-10-26T03:35:00,Road Number 13,residential,19.7,20,moderate,synthetic,false
+SYN-0292,2026-10-27T00:37:00,HITEC City Road,primary,36.4,22,light,synthetic,false
+SYN-0293,2026-10-27T23:55:00,Inorbit Mall Road,secondary,22.1,12,moderate,synthetic,false
+SYN-0294,2026-10-28T06:43:00,Ayyappa Society Main Road,tertiary,18.1,4,moderate,synthetic,false
+SYN-0295,2026-10-27T05:22:00,HITEC City Road,primary,38.0,32,light,synthetic,false
+SYN-0296,2026-10-26T21:29:00,Inorbit Mall Road,secondary,27.9,23,light,synthetic,false
+SYN-0297,2026-10-26T11:35:00,Road Number 13,residential,24.1,12,moderate,synthetic,false
+SYN-0298,2026-10-26T06:47:00,HITEC City-Kondapur Main Road,primary,40.8,20,light,synthetic,false
+SYN-0299,2026-10-28T09:53:00,Durgam Cheruvu Road,secondary,21.2,20,moderate,synthetic,false
+SYN-0300,2026-10-28T21:57:00,HITEC City-Kondapur Main Road,primary,31.8,30,light,synthetic,false
+SYN-0301,2026-10-27T14:40:00,HITEC City Road,primary,42.9,34,light,synthetic,false
+SYN-0302,2026-10-27T18:06:00,Ayyappa Society Main Road,tertiary,17.9,6,moderate,synthetic,false
+SYN-0303,2026-10-27T03:54:00,HITEC City Road,primary,36.8,16,light,synthetic,false
+SYN-0304,2026-10-26T18:44:00,Road Number 13,residential,5,10,heavy,synthetic,false
+SYN-0305,2026-10-28T19:54:00,HITEC City Road,primary,22.3,27,moderate,synthetic,false
+SYN-0306,2026-10-27T07:25:00,Ayyappa Society Main Road,tertiary,25.0,25,light,synthetic,false
+SYN-0307,2026-10-28T06:12:00,HITEC City Road,primary,45.8,5,light,synthetic,false
+SYN-0308,2026-10-26T02:33:00,Durgam Cheruvu Road,secondary,31.4,7,light,synthetic,false
+SYN-0309,2026-10-27T18:44:00,Road Number 13,residential,8.4,29,heavy,synthetic,false
+SYN-0310,2026-10-26T15:43:00,Inorbit Mall Road,secondary,28.5,23,light,synthetic,false
+SYN-0311,2026-10-28T14:49:00,HITEC City-Kondapur Main Road,primary,43.3,26,light,synthetic,false
+SYN-0312,2026-10-28T11:37:00,HITEC City Road,primary,45.5,18,light,synthetic,false
+SYN-0313,2026-10-28T06:40:00,Durgam Cheruvu Road,secondary,32.4,28,light,synthetic,false
+SYN-0314,2026-10-27T18:21:00,Road Number 13,residential,5,13,heavy,synthetic,false
+SYN-0315,2026-10-28T21:41:00,HITEC City Road,primary,42.1,35,light,synthetic,false
+SYN-0316,2026-10-27T23:42:00,HITEC City-Kondapur Main Road,primary,35.6,12,light,synthetic,false
+SYN-0317,2026-10-26T14:02:00,HITEC City-Kondapur Main Road,primary,32.3,15,light,synthetic,false
+SYN-0318,2026-10-26T20:52:00,HITEC City-Kondapur Main Road,primary,27.9,14,light,synthetic,false
+SYN-0319,2026-10-28T19:27:00,Road Number 13,residential,9.4,31,heavy,synthetic,false
+SYN-0320,2026-10-27T20:07:00,Image Garden Road,residential,8.4,12,heavy,synthetic,false
+SYN-0321,2026-10-26T09:19:00,Durgam Cheruvu Road,secondary,24.4,20,moderate,synthetic,false
+SYN-0322,2026-10-26T07:40:00,Ayyappa Society Main Road,tertiary,22.6,7,moderate,synthetic,false
+SYN-0323,2026-10-28T15:02:00,Inorbit Mall Road,secondary,29.2,6,light,synthetic,false
+SYN-0324,2026-10-27T15:11:00,Inorbit Mall Road,secondary,23.2,8,moderate,synthetic,false
+SYN-0325,2026-10-28T21:13:00,Ayyappa Society Main Road,tertiary,23.2,5,moderate,synthetic,false
+SYN-0326,2026-10-27T01:42:00,Durgam Cheruvu Road,secondary,29.1,33,light,synthetic,false
+SYN-0327,2026-10-26T20:35:00,Ayyappa Society Main Road,tertiary,9.6,24,heavy,synthetic,false
+SYN-0328,2026-10-26T11:30:00,Image Garden Road,residential,20.1,14,moderate,synthetic,false
+SYN-0329,2026-10-27T09:49:00,HITEC City Road,primary,35.8,13,light,synthetic,false
+SYN-0330,2026-10-28T02:54:00,Inorbit Mall Road,secondary,36.7,27,light,synthetic,false
+SYN-0331,2026-10-27T22:11:00,Durgam Cheruvu Road,secondary,34.9,6,light,synthetic,false
+SYN-0332,2026-10-27T21:41:00,Road Number 13,residential,11.1,9,heavy,synthetic,false
+SYN-0333,2026-10-28T04:46:00,Ayyappa Society Main Road,tertiary,21.5,12,moderate,synthetic,false
+SYN-0334,2026-10-26T11:07:00,Inorbit Mall Road,secondary,31.3,12,light,synthetic,false
+SYN-0335,2026-10-27T18:21:00,Inorbit Mall Road,secondary,18.5,28,moderate,synthetic,false
+SYN-0336,2026-10-26T11:34:00,HITEC City-Kondapur Main Road,primary,35.0,27,light,synthetic,false
+SYN-0337,2026-10-27T20:50:00,Image Garden Road,residential,9.6,8,heavy,synthetic,false
+SYN-0338,2026-10-28T09:48:00,Image Garden Road,residential,5,22,heavy,synthetic,false
+SYN-0339,2026-10-27T05:14:00,HITEC City-Kondapur Main Road,primary,35.5,34,light,synthetic,false
+SYN-0340,2026-10-27T06:55:00,HITEC City-Kondapur Main Road,primary,46.0,12,light,synthetic,false
+SYN-0341,2026-10-27T16:23:00,HITEC City Road,primary,45.5,9,light,synthetic,false
+SYN-0342,2026-10-28T23:53:00,Ayyappa Society Main Road,tertiary,17.6,24,moderate,synthetic,false
+SYN-0343,2026-10-26T17:53:00,Road Number 13,residential,5,14,heavy,synthetic,false
+SYN-0344,2026-10-26T22:36:00,Road Number 13,residential,21.5,5,moderate,synthetic,false
+SYN-0345,2026-10-28T01:44:00,Durgam Cheruvu Road,secondary,34.8,18,light,synthetic,false
+SYN-0346,2026-10-27T14:54:00,Durgam Cheruvu Road,secondary,36.0,31,light,synthetic,false
+SYN-0347,2026-10-27T08:39:00,HITEC City-Kondapur Main Road,primary,34.8,33,light,synthetic,false
+SYN-0348,2026-10-27T02:29:00,Road Number 13,residential,15.9,31,moderate,synthetic,false
+SYN-0349,2026-10-27T14:28:00,Durgam Cheruvu Road,secondary,36.4,35,light,synthetic,false
+SYN-0350,2026-10-28T09:09:00,Ayyappa Society Main Road,tertiary,15.4,11,moderate,synthetic,false
+SYN-0351,2026-10-27T10:08:00,Road Number 13,residential,12.2,26,heavy,synthetic,false
+SYN-0352,2026-10-26T14:00:00,Ayyappa Society Main Road,tertiary,28.4,10,light,synthetic,false
+SYN-0353,2026-10-26T11:27:00,Inorbit Mall Road,secondary,34.2,20,light,synthetic,false
+SYN-0354,2026-10-28T22:05:00,Durgam Cheruvu Road,secondary,26.4,30,light,synthetic,false
+SYN-0355,2026-10-27T06:18:00,HITEC City Road,primary,45.1,25,light,synthetic,false
+SYN-0356,2026-10-28T08:38:00,HITEC City Road,primary,34.5,18,light,synthetic,false
+SYN-0357,2026-10-26T11:08:00,Durgam Cheruvu Road,secondary,30.0,4,light,synthetic,false
+SYN-0358,2026-10-26T13:31:00,Inorbit Mall Road,secondary,35.4,24,light,synthetic,false
+SYN-0359,2026-10-26T19:56:00,Road Number 13,residential,8.2,33,heavy,synthetic,false
+SYN-0360,2026-10-26T18:56:00,Image Garden Road,residential,6.9,3,heavy,synthetic,false
+SYN-0361,2026-10-26T02:35:00,HITEC City Road,primary,36.1,12,light,synthetic,false
+SYN-0362,2026-10-28T09:47:00,Ayyappa Society Main Road,tertiary,15.5,22,moderate,synthetic,false
+SYN-0363,2026-10-26T06:31:00,HITEC City Road,primary,35.8,32,light,synthetic,false
+SYN-0364,2026-10-26T15:08:00,HITEC City Road,primary,45.4,34,light,synthetic,false
+SYN-0365,2026-10-26T02:14:00,Ayyappa Society Main Road,tertiary,27.1,18,light,synthetic,false
+SYN-0366,2026-10-26T19:36:00,Image Garden Road,residential,5,25,heavy,synthetic,false
+SYN-0367,2026-10-28T08:52:00,HITEC City-Kondapur Main Road,primary,33.8,26,light,synthetic,false
+SYN-0368,2026-10-28T23:49:00,HITEC City Road,primary,40.7,35,light,synthetic,false
+SYN-0369,2026-10-26T02:46:00,Ayyappa Society Main Road,tertiary,23.2,33,moderate,synthetic,false
+SYN-0370,2026-10-28T04:49:00,HITEC City Road,primary,47.7,19,light,synthetic,false
+SYN-0371,2026-10-26T02:13:00,Image Garden Road,residential,17.7,7,moderate,synthetic,false
+SYN-0372,2026-10-27T08:55:00,Inorbit Mall Road,secondary,19.7,24,moderate,synthetic,false
+SYN-0373,2026-10-26T06:03:00,HITEC City-Kondapur Main Road,primary,35.6,24,light,synthetic,false
+SYN-0374,2026-10-26T23:54:00,Road Number 13,residential,23.3,32,moderate,synthetic,false
+SYN-0375,2026-10-28T17:20:00,Image Garden Road,residential,13.7,7,heavy,synthetic,false
+SYN-0376,2026-10-28T14:29:00,Image Garden Road,residential,12.6,15,heavy,synthetic,false
+SYN-0377,2026-10-27T03:14:00,HITEC City Road,primary,46.2,23,light,synthetic,false
+SYN-0378,2026-10-28T22:22:00,Inorbit Mall Road,secondary,28.4,33,light,synthetic,false
+SYN-0379,2026-10-26T04:59:00,Inorbit Mall Road,secondary,34.1,15,light,synthetic,false
+SYN-0380,2026-10-28T00:44:00,Inorbit Mall Road,secondary,35.8,6,light,synthetic,false
+SYN-0381,2026-10-27T21:19:00,Road Number 13,residential,14.4,26,heavy,synthetic,false
+SYN-0382,2026-10-28T06:36:00,Durgam Cheruvu Road,secondary,35.9,27,light,synthetic,false
+SYN-0383,2026-10-27T01:30:00,Inorbit Mall Road,secondary,29.9,34,light,synthetic,false
+SYN-0384,2026-10-28T22:53:00,Inorbit Mall Road,secondary,26.3,8,light,synthetic,false
+SYN-0385,2026-10-28T09:57:00,Image Garden Road,residential,15.8,14,moderate,synthetic,false
+SYN-0386,2026-10-27T16:06:00,Ayyappa Society Main Road,tertiary,22.1,8,moderate,synthetic,false
+SYN-0387,2026-10-27T16:21:00,Inorbit Mall Road,secondary,26.9,30,light,synthetic,false
+SYN-0388,2026-10-28T12:36:00,HITEC City-Kondapur Main Road,primary,35.6,5,light,synthetic,false
+SYN-0389,2026-10-28T00:08:00,Image Garden Road,residential,21.8,30,moderate,synthetic,false
+SYN-0390,2026-10-26T07:49:00,Inorbit Mall Road,secondary,23.2,28,moderate,synthetic,false
+SYN-0391,2026-10-28T22:03:00,Inorbit Mall Road,secondary,34.8,13,light,synthetic,false
+SYN-0392,2026-10-26T19:29:00,HITEC City Road,primary,29.4,31,light,synthetic,false
+SYN-0393,2026-10-26T17:14:00,HITEC City Road,primary,38.8,26,light,synthetic,false
+SYN-0394,2026-10-28T04:16:00,Inorbit Mall Road,secondary,37.2,5,light,synthetic,false
+SYN-0395,2026-10-26T20:56:00,Ayyappa Society Main Road,tertiary,20.4,26,moderate,synthetic,false
+SYN-0396,2026-10-26T10:29:00,Durgam Cheruvu Road,secondary,21.7,28,moderate,synthetic,false
+SYN-0397,2026-10-27T14:03:00,Inorbit Mall Road,secondary,26.0,10,light,synthetic,false
+SYN-0398,2026-10-27T01:24:00,HITEC City Road,primary,40.0,27,light,synthetic,false
+SYN-0399,2026-10-26T16:04:00,Ayyappa Society Main Road,tertiary,21.2,19,moderate,synthetic,false
+SYN-0400,2026-10-28T12:55:00,Image Garden Road,residential,15.4,21,moderate,synthetic,false
+SYN-0401,2026-10-28T19:03:00,Image Garden Road,residential,7.2,7,heavy,synthetic,false
+SYN-0402,2026-10-26T23:34:00,Durgam Cheruvu Road,secondary,38.4,31,light,synthetic,false
+SYN-0403,2026-10-27T19:38:00,HITEC City Road,primary,31.7,21,light,synthetic,false
+SYN-0404,2026-10-26T21:30:00,Inorbit Mall Road,secondary,33.4,14,light,synthetic,false
+SYN-0405,2026-10-28T01:21:00,Road Number 13,residential,18.1,10,moderate,synthetic,false
+SYN-0406,2026-10-26T18:57:00,HITEC City-Kondapur Main Road,primary,30.5,26,light,synthetic,false
+SYN-0407,2026-10-28T02:22:00,Ayyappa Society Main Road,tertiary,24.5,11,moderate,synthetic,false
+SYN-0408,2026-10-26T11:46:00,Ayyappa Society Main Road,tertiary,18.1,28,moderate,synthetic,false
+SYN-0409,2026-10-28T17:21:00,Image Garden Road,residential,14.0,7,heavy,synthetic,false
+SYN-0410,2026-10-27T19:17:00,HITEC City-Kondapur Main Road,primary,25.8,25,light,synthetic,false
+SYN-0411,2026-10-27T00:50:00,HITEC City-Kondapur Main Road,primary,42.3,11,light,synthetic,false
+SYN-0412,2026-10-28T20:39:00,Durgam Cheruvu Road,secondary,10.8,10,heavy,synthetic,false
+SYN-0413,2026-10-26T20:53:00,Ayyappa Society Main Road,tertiary,11.6,17,heavy,synthetic,false
+SYN-0414,2026-10-28T22:50:00,Inorbit Mall Road,secondary,36.3,8,light,synthetic,false
+SYN-0415,2026-10-27T02:48:00,Inorbit Mall Road,secondary,32.2,20,light,synthetic,false
+SYN-0416,2026-10-27T17:20:00,HITEC City-Kondapur Main Road,primary,20.4,13,moderate,synthetic,false
+SYN-0417,2026-10-26T21:03:00,Ayyappa Society Main Road,tertiary,19.7,24,moderate,synthetic,false
+SYN-0418,2026-10-26T05:37:00,Road Number 13,residential,23.2,4,moderate,synthetic,false
+SYN-0419,2026-10-26T06:12:00,HITEC City Road,primary,47.2,19,light,synthetic,false
+SYN-0420,2026-10-27T04:46:00,Image Garden Road,residential,24.3,29,moderate,synthetic,false
+SYN-0421,2026-10-26T04:08:00,Ayyappa Society Main Road,tertiary,25.0,21,light,synthetic,false
+SYN-0422,2026-10-27T17:14:00,Image Garden Road,residential,15.0,28,moderate,synthetic,false
+SYN-0423,2026-10-28T13:55:00,Inorbit Mall Road,secondary,23.2,6,moderate,synthetic,false
+SYN-0424,2026-10-28T12:01:00,HITEC City-Kondapur Main Road,primary,36.6,32,light,synthetic,false
+SYN-0425,2026-10-27T22:26:00,HITEC City-Kondapur Main Road,primary,39.7,23,light,synthetic,false
+SYN-0426,2026-10-27T19:35:00,Road Number 13,residential,11.4,28,heavy,synthetic,false
+SYN-0427,2026-10-28T02:35:00,HITEC City-Kondapur Main Road,primary,38.2,9,light,synthetic,false
+SYN-0428,2026-10-27T09:00:00,Inorbit Mall Road,secondary,16.6,18,moderate,synthetic,false
+SYN-0429,2026-10-26T13:13:00,HITEC City-Kondapur Main Road,primary,30.8,27,light,synthetic,false
+SYN-0430,2026-10-28T09:05:00,Road Number 13,residential,16.4,13,moderate,synthetic,false
+SYN-0431,2026-10-27T20:42:00,Road Number 13,residential,7.2,15,heavy,synthetic,false
+SYN-0432,2026-10-26T21:45:00,Road Number 13,residential,18.0,35,moderate,synthetic,false
+SYN-0433,2026-10-28T20:05:00,Durgam Cheruvu Road,secondary,18.2,8,moderate,synthetic,false
+SYN-0434,2026-10-28T21:00:00,Durgam Cheruvu Road,secondary,31.3,18,light,synthetic,false
+SYN-0435,2026-10-28T00:10:00,HITEC City-Kondapur Main Road,primary,30.8,21,light,synthetic,false
+SYN-0436,2026-10-28T16:15:00,Durgam Cheruvu Road,secondary,28.6,3,light,synthetic,false
+SYN-0437,2026-10-26T14:40:00,Road Number 13,residential,16.9,19,moderate,synthetic,false
+SYN-0438,2026-10-28T01:56:00,Image Garden Road,residential,24.2,26,moderate,synthetic,false
+SYN-0439,2026-10-28T06:41:00,HITEC City Road,primary,32.8,15,light,synthetic,false
+SYN-0440,2026-10-27T15:24:00,Inorbit Mall Road,secondary,23.2,35,moderate,synthetic,false
+SYN-0441,2026-10-27T14:11:00,Durgam Cheruvu Road,secondary,37.2,10,light,synthetic,false
+SYN-0442,2026-10-26T13:12:00,HITEC City-Kondapur Main Road,primary,36.3,24,light,synthetic,false
+SYN-0443,2026-10-28T01:55:00,Ayyappa Society Main Road,tertiary,29.1,15,light,synthetic,false
+SYN-0444,2026-10-28T21:30:00,Ayyappa Society Main Road,tertiary,23.4,5,moderate,synthetic,false
+SYN-0445,2026-10-26T05:18:00,HITEC City Road,primary,34.2,24,light,synthetic,false
+SYN-0446,2026-10-28T16:40:00,Road Number 13,residential,18.3,12,moderate,synthetic,false
+SYN-0447,2026-10-28T22:23:00,Ayyappa Society Main Road,tertiary,19.2,23,moderate,synthetic,false
+SYN-0448,2026-10-28T05:39:00,HITEC City-Kondapur Main Road,primary,45.8,22,light,synthetic,false
+SYN-0449,2026-10-27T21:55:00,Ayyappa Society Main Road,tertiary,25.1,35,light,synthetic,false
+SYN-0450,2026-10-28T18:52:00,Ayyappa Society Main Road,tertiary,9.7,4,heavy,synthetic,false
+SYN-0451,2026-10-27T21:13:00,Inorbit Mall Road,secondary,32.8,29,light,synthetic,false
+SYN-0452,2026-10-27T18:00:00,Ayyappa Society Main Road,tertiary,15.6,4,moderate,synthetic,false
+SYN-0453,2026-10-28T16:47:00,Ayyappa Society Main Road,tertiary,21.2,17,moderate,synthetic,false
+SYN-0454,2026-10-26T07:00:00,Image Garden Road,residential,21.3,13,moderate,synthetic,false
+SYN-0455,2026-10-28T03:54:00,Ayyappa Society Main Road,tertiary,19.4,18,moderate,synthetic,false
+SYN-0456,2026-10-26T15:00:00,HITEC City Road,primary,35.1,31,light,synthetic,false
+SYN-0457,2026-10-28T09:10:00,Inorbit Mall Road,secondary,26.5,29,light,synthetic,false
+SYN-0458,2026-10-28T16:23:00,Ayyappa Society Main Road,tertiary,31.0,6,light,synthetic,false
+SYN-0459,2026-10-26T18:51:00,Image Garden Road,residential,10.8,33,heavy,synthetic,false
+SYN-0460,2026-10-28T03:26:00,Ayyappa Society Main Road,tertiary,22.0,14,moderate,synthetic,false
+SYN-0461,2026-10-27T22:44:00,Durgam Cheruvu Road,secondary,32.7,19,light,synthetic,false
+SYN-0462,2026-10-28T18:06:00,Ayyappa Society Main Road,tertiary,14.0,22,heavy,synthetic,false
+SYN-0463,2026-10-27T16:38:00,HITEC City-Kondapur Main Road,primary,42.3,16,light,synthetic,false
+SYN-0464,2026-10-28T18:45:00,Image Garden Road,residential,9.4,20,heavy,synthetic,false
+SYN-0465,2026-10-26T16:38:00,Inorbit Mall Road,secondary,31.2,27,light,synthetic,false
+SYN-0466,2026-10-27T23:07:00,Durgam Cheruvu Road,secondary,39.3,12,light,synthetic,false
+SYN-0467,2026-10-26T05:44:00,Inorbit Mall Road,secondary,26.6,8,light,synthetic,false
+SYN-0468,2026-10-28T12:23:00,Inorbit Mall Road,secondary,32.5,33,light,synthetic,false
+SYN-0469,2026-10-27T03:35:00,HITEC City-Kondapur Main Road,primary,43.2,20,light,synthetic,false
+SYN-0470,2026-10-27T13:05:00,Ayyappa Society Main Road,tertiary,19.2,18,moderate,synthetic,false
+SYN-0471,2026-10-26T06:55:00,HITEC City-Kondapur Main Road,primary,40.7,17,light,synthetic,false
+SYN-0472,2026-10-27T07:47:00,Image Garden Road,residential,12.8,29,heavy,synthetic,false
+SYN-0473,2026-10-28T16:29:00,Inorbit Mall Road,secondary,23.6,11,moderate,synthetic,false
+SYN-0474,2026-10-26T21:33:00,HITEC City Road,primary,38.5,33,light,synthetic,false
+SYN-0475,2026-10-27T03:13:00,Durgam Cheruvu Road,secondary,36.1,21,light,synthetic,false
+SYN-0476,2026-10-27T14:58:00,Inorbit Mall Road,secondary,32.3,8,light,synthetic,false
+SYN-0477,2026-10-27T07:42:00,Image Garden Road,residential,20.6,5,moderate,synthetic,false
+SYN-0478,2026-10-28T09:03:00,HITEC City-Kondapur Main Road,primary,19.0,5,moderate,synthetic,false
+SYN-0479,2026-10-28T06:12:00,Road Number 13,residential,22.6,14,moderate,synthetic,false
+SYN-0480,2026-10-27T15:31:00,Image Garden Road,residential,26.0,3,light,synthetic,false
+SYN-0481,2026-10-26T14:39:00,Inorbit Mall Road,secondary,36.9,24,light,synthetic,false
+SYN-0482,2026-10-28T14:02:00,Inorbit Mall Road,secondary,37.8,34,light,synthetic,false
+SYN-0483,2026-10-28T20:50:00,HITEC City-Kondapur Main Road,primary,23.4,10,moderate,synthetic,false
+SYN-0484,2026-10-26T22:11:00,Inorbit Mall Road,secondary,33.7,19,light,synthetic,false
+SYN-0485,2026-10-27T01:25:00,Image Garden Road,residential,12.2,24,heavy,synthetic,false
+SYN-0486,2026-10-27T16:16:00,Road Number 13,residential,19.1,15,moderate,synthetic,false
+SYN-0487,2026-10-28T07:21:00,HITEC City-Kondapur Main Road,primary,43.2,35,light,synthetic,false
+SYN-0488,2026-10-26T11:50:00,Inorbit Mall Road,secondary,28.4,9,light,synthetic,false
+SYN-0489,2026-10-26T19:11:00,HITEC City-Kondapur Main Road,primary,35.2,3,light,synthetic,false
+SYN-0490,2026-10-28T04:22:00,Inorbit Mall Road,secondary,25.8,20,light,synthetic,false
+SYN-0491,2026-10-27T17:13:00,Inorbit Mall Road,secondary,20.3,19,moderate,synthetic,false
+SYN-0492,2026-10-28T01:05:00,Image Garden Road,residential,23.1,6,moderate,synthetic,false
+SYN-0493,2026-10-26T16:08:00,Image Garden Road,residential,19.4,13,moderate,synthetic,false
+SYN-0494,2026-10-28T20:36:00,Durgam Cheruvu Road,secondary,24.0,22,moderate,synthetic,false
+SYN-0495,2026-10-26T16:01:00,Image Garden Road,residential,22.2,21,moderate,synthetic,false
+SYN-0496,2026-10-27T06:09:00,Inorbit Mall Road,secondary,25.5,11,light,synthetic,false
+SYN-0497,2026-10-26T20:54:00,Durgam Cheruvu Road,secondary,30.3,26,light,synthetic,false
+SYN-0498,2026-10-28T16:17:00,Durgam Cheruvu Road,secondary,36.1,16,light,synthetic,false
+SYN-0499,2026-10-27T09:47:00,Road Number 13,residential,7.7,8,heavy,synthetic,false
+SYN-0500,2026-10-28T12:59:00,Ayyappa Society Main Road,tertiary,25.5,26,light,synthetic,false

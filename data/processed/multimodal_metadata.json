@@ -1,0 +1,263 @@
+[
+  {
+    "record_id": "durga_advisory_ocr",
+    "modality": "text",
+    "evidence_type": "ocr_extraction",
+    "content": "HYDERABADTRAFFICPOLICE\nYDERABA\nTRAFFICADVISORY\nDURGA MATHAIDOLSIMMERSION\nFrom\nTo\n15:00hrson\n06:00hrson\nPeople'sPlaza,Garden Point,Baby ponds atJalavihar\n21.10.2026\n24.10.2026\n(Earlyhours)\nand Sanjeevaraiha Park\nTrafficdiversionsandrestrictionswillbeimplemented\nonneedbasisasperthelocaltrafficconditions.\nTrafficcomingfromPanjagutta and RajBhavanRoad\nTrafficcomingfromNirankariJunctiontowards\ntowardsKhairathabadflyoverwillbedivertedat\nlqbalMinarwillbedivertedatOldP.S.Saifabad\nV.V.StatuetowardsNirankariJunction.\ntowardsRavindraBharathiandMasabtank.\nOnlyMathaIdolswillbeallowedtowards\nOnlyMatha Idolswillbeallowed towardslqbalMinar.\nKhairathabadflyover.\n3\n4\nTrafficcomingfromKhairtabadBada Ganeshlane/\nTrafficcomingfromlqbalMinartowardsSecretariat\nJunctionwillbedivertedattheTelanganaThalli\nMintCompoundwillnotbeallowedtowardsNecklace\nStartingFlyoverontotheTelanganaThalliFlyover\nRotaryandwillbediverted atPrintingPressJunction\ntowardsLowerTankBund.\ntowardsMintCompound/RajivGandhiStatue.\n6\nTrafficcomingfromLibertywillnotbeallowed\nTrafficcomingfromUpperTankBundtowards\ntowardsSecretariatJunctionandwillbediverted\nSecretariatJunctionwillbedivertedat\natOldAmbedkarStatuetowardsUpperTankBund.\nOldAmbedkarStatue towardsLiberty.\nOnlyMathaIdolswillbeallowedtowardsOldAmbedkar\nStatue-SecretariatJunction-NTRMarg-NecklaceRoad.\nTrafficcomingfromUpperTanktowardsNallagutta\nTrafficcomingfromRanigunj/MinisterRoad\nBridgeand P.V.Marg (NecklaceRoad)willbe diverted\ntowardsNecklaceroadwillbedivertedatNallagutta\natSonabiAbdullahMasjid towardsMinisterRoad\nX'roadstowardsMinisterRoad/Ranigunj.\nviaKarbala-Ranigunj.\nFrom15:00hrson21.10.2026to\nTrafficcongestionisexpected\nAllcitizensarerequestedtotakenoteofthe\nJUNCTIONSTOAVOID\natthefollowingjunctions.\ntrafficdiversionsandcongestionpoints\n24.10.2026 early (06:00) hours\nCitizensarerequestedtoavoid\nmentioned above and usealternative\nthesejunctions.\nroutestoreachtheirdestinations.\nFortrafficupdates,pleasefollowusonoursocialmediaplatforms:\nBJRStatue\nLiberty\nfacebook.com/HYDTP\n@HYDTP\nW\nOldPS\nRavindra\nHTP\nARPetrol\nBasheerbagh\nOld Ambedkar\nUpper\nNallagutta\nStatue\nSaifabad\nBharathi\nJunction\nPump\nCircle\nStatue\nTankBund\nXRoad\nForanytravelassstanceinemergencies,\n9010203626\nplease contactour traffichelpline number",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "extraction_method": "RapidOCR",
+      "line_count": 87
+    }
+  },
+  {
+    "record_id": "durga_advisory_visual_summary",
+    "modality": "image",
+    "evidence_type": "vlm_visual_interpretation",
+    "content": "Document: TRAFFIC ADVISORY. Issuing authority: Hyderabad Traffic Police. Event: Durga Matha Idols Immersion. Validity: From 15:00 hrs on 21.10.2026 To 06:00 hrs on 24.10.2026 (Early hours). Visual layout: The document is a vertical infographic. The top section contains the header with the police logo, title, event name, and validity dates. The middle section consists of a grid of 8 numbered boxes (1-8), each containing a photo of a location and text describing traffic diversions. The bottom section features a red banner titled 'JUNCTIONS TO AVOID' listing specific locations with map pins, followed by a footer with social media links and a helpline number.. Visual elements: Hyderabad Traffic Police logo (shield with star and wheel)., Numbered circles (1-8) indicating specific diversion points., Photographs of the specific junctions or statues mentioned in the text., Yellow highlight boxes for specific exceptions (e.g., 'Only Matha Idols...')., Red banner with a warning triangle icon for 'JUNCTIONS TO AVOID'., Map pin icons indicating locations in the bottom section., Social media icons (Facebook, X) and a phone icon for the helpline., Image of Goddess Durga in the header..",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_1",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Panjagutta and Raj Bhavan Road towards Khairatabad flyover will be diverted at V.V. Statue towards Nirankari Junction. Only Matha Idols will be allowed towards Khairatabad flyover.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 1,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_2",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Nirankari Junction towards Iqbal Minar will be diverted at Old P.S. Saifabad towards Ravindra Bharathi and Masabtank. Only Matha Idols will be allowed towards Iqbal Minar.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 2,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_3",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Iqbal Minar towards Secretariat Junction will be diverted at the Telangana Thalli Starting Flyover onto the Telangana Thalli Flyover towards Lower Tank Bund.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 3,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_4",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Khairtabad Bada Ganesh lane / Mint Compound will not be allowed towards Necklace Rotary and will be diverted at Printing Press Junction towards Mint Compound / Rajiv Gandhi Statue.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 4,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_5",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Upper Tank Bund towards Secretariat Junction will be diverted at Old Ambedkar Statue towards Liberty.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 5,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_6",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Liberty will not be allowed towards Secretariat Junction and will be diverted at Old Ambedkar Statue towards Upper Tank Bund. Only Matha Idols will be allowed towards Old Ambedkar Statue - Secretariat Junction - NTR Marg - Necklace Road.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 6,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_7",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Upper Tank towards Nallagutta Bridge and P.V. Marg (Necklace Road) will be diverted at Sonabi Abdullah Masjid towards Minister Road via Karbala - Ranigunj.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 7,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_diversion_8",
+    "modality": "image_derived_text",
+    "evidence_type": "traffic_diversion",
+    "content": "Traffic coming from Ranigunj / Minister Road towards Necklace road will be diverted at Nallagutta 'X' roads towards Minister Road / Ranigunj.",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "diversion_id": 8,
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_1",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: V.V. Statue",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_2",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: Old PS Saifabad",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_3",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: Ravindra Bharathi",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_4",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: HTP Junction",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_5",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: AR Petrol Pump",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_6",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: B.J.R. Statue Circle",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_7",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: Basheerbagh",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_8",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: Liberty",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_9",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: Old Ambedkar Statue",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_10",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: Upper Tank Bund",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  },
+  {
+    "record_id": "durga_junction_11",
+    "modality": "image_derived_text",
+    "evidence_type": "junction",
+    "content": "Junction mentioned in the advisory: Nallagutta X Road",
+    "metadata": {
+      "document_id": "durga_matha_immersion_2026",
+      "source_image": "data\\Advisories\\images\\durga_matha_immersion_2026.jpeg",
+      "source_type": "traffic_advisory_image",
+      "model": "qwen/qwen3.8-27b"
+    }
+  }
+]
