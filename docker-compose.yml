@@ -1,0 +1,29 @@
+
+services:
+  backend:
+    image: urbanpulseai:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: urbanpulse-backend
+    command: uvicorn scripts.api:app --host 0.0.0.0 --port 8000
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - model_cache:/app/model_cache
+
+  frontend:
+    image: urbanpulseai:latest
+    container_name: urbanpulse-frontend
+    command: streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501
+    environment:
+      API_URL: http://backend:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+
+volumes:
+  model_cache:
