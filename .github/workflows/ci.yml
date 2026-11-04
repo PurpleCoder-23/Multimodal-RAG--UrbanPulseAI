@@ -26,9 +26,16 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      
       - name: Create environment file
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          echo "GROQ_API_KEY=${{ secrets.GROQ_API_KEY }}" > .env
+          if [ -z "$GROQ_API_KEY" ]; then
+            echo "GROQ_API_KEY secret is missing"
+            exit 1
+          fi
+          printf 'GROQ_API_KEY=%s\n' "$GROQ_API_KEY" > .env
 
       - name: Start backend
         run: docker compose up -d --build backend
