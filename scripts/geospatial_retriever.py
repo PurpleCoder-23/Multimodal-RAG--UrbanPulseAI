@@ -17,7 +17,7 @@ class GeospatialRetriever:
         geojson_path = (
             project_root
             / "data"
-            / "Maps"
+            / "maps"
             / "hyderabad_road_segments.geojson"
         )
 

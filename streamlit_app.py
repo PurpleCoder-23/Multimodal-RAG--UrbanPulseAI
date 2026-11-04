@@ -3,6 +3,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 import json
 import uuid
+import os
 
 import folium
 import pandas as pd
@@ -23,10 +24,12 @@ st.set_page_config(
 )
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-API_URL = "http://127.0.0.1:8000"
+#API_URL = "http://127.0.0.1:8000"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+
 
 ROAD_GEOJSON_PATH = (
-    PROJECT_ROOT / "data" / "Maps" / "hyderabad_road_segments.geojson"
+    PROJECT_ROOT / "data" / "maps" / "hyderabad_road_segments.geojson"
 )
 TRAFFIC_CSV_PATH = (
     PROJECT_ROOT / "data" / "traffic" / "synthetic_traffic_records.csv"
@@ -593,7 +596,7 @@ with map_tab:
     except FileNotFoundError as error:
         st.error(str(error))
         st.info(
-            "Check that data/Maps/hyderabad_road_segments.geojson "
+            "Check that data/maps/hyderabad_road_segments.geojson "
             "exists inside your UrbanPulseAI project folder."
         )
     except (json.JSONDecodeError, ValueError) as error:

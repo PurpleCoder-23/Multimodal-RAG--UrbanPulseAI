@@ -7,12 +7,12 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     HF_HOME=/app/model_cache
 
-# Install dependencies first for better layer caching
+# Copy dependencies before application code
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application after dependencies
+# Copy project files
 COPY . .
 
 EXPOSE 8000 8501
