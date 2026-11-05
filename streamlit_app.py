@@ -4,12 +4,13 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 import json
 import uuid
 import os
+import sys
 
 import folium
 import pandas as pd
 import plotly.express as px
-import requests
 import streamlit as st
+from langchain_core.messages import HumanMessage
 from streamlit_folium import st_folium
 
 
@@ -24,9 +25,23 @@ st.set_page_config(
 )
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-#API_URL = "http://127.0.0.1:8000"
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 
+# Streamlit Cloud stores secrets in st.secrets. Make the Groq key available
+# to the existing project modules, which read it from the environment.
+try:
+    if "GROQ_API_KEY" in st.secrets:
+        os.environ["GROQ_API_KEY"] = str(st.secrets["GROQ_API_KEY"])
+except Exception:
+    # Locally, the existing .env configuration can provide the key.
+    pass
+
+# Import the same LangGraph agent used by scripts/api.py, without requiring
+# a separately running FastAPI service in Streamlit Cloud.
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from scripts.urbanpulse_agent import build_urbanpulse_agent
 
 ROAD_GEOJSON_PATH = (
     PROJECT_ROOT / "data" / "maps" / "hyderabad_road_segments.geojson"
@@ -146,6 +161,12 @@ def load_json_file(file_path: str):
 
     with path.open("r", encoding="utf-8-sig") as file:
         return json.load(file)
+
+
+@st.cache_resource(show_spinner="Initializing UrbanPulse AI agent...")
+def get_urbanpulse_agent():
+    """Build the existing LangGraph agent once per Streamlit process."""
+    return build_urbanpulse_agent()
 
 
 # =====================================================
@@ -279,18 +300,8 @@ with st.sidebar:
     st.caption("City Intelligence Assistant")
     st.divider()
 
-    st.subheader("Backend Status")
-    try:
-        health_response = requests.get(f"{API_URL}/health", timeout=3)
-        health_response.raise_for_status()
-        health_data = health_response.json()
-
-        if health_data.get("agent_ready"):
-            st.success("AI Backend Connected")
-        else:
-            st.warning("AI Backend is not ready")
-    except requests.exceptions.RequestException:
-        st.error("FastAPI server is unavailable")
+    st.subheader("AI Agent Status")
+    st.info("The LangGraph agent runs directly inside this Streamlit app.")
 
     st.divider()
     st.subheader("Capabilities")
@@ -366,34 +377,29 @@ with chat_tab:
         with st.chat_message("assistant"):
             with st.spinner("UrbanPulse AI is thinking..."):
                 try:
-                    payload = {
-                        "question": prompt,
-                        "session_id": st.session_state.session_id,
+                    agent = get_urbanpulse_agent()
+                    config = {
+                        "configurable": {
+                            "thread_id": st.session_state.session_id
+                        }
                     }
-                    response = requests.post(
-                        f"{API_URL}/chat",
-                        json=payload,
-                        timeout=180,
+
+                    result = agent.invoke(
+                        {"messages": [HumanMessage(content=prompt)]},
+                        config=config,
                     )
-                    response.raise_for_status()
-                    result = response.json()
                     answer = result.get(
                         "answer", "No answer was generated."
                     )
 
-                except requests.exceptions.Timeout:
-                    answer = "The request took too long. Please try again."
-                except requests.exceptions.ConnectionError:
+                except Exception as error:
+                    # Keep detailed diagnostics in the Streamlit logs while
+                    # displaying a safe, concise message in the chat.
+                    print(f"UrbanPulse AI agent error: {error}")
                     answer = (
-                        "Unable to connect to the UrbanPulse AI backend. "
-                        "Please check whether FastAPI is running."
+                        "Unable to process your question. Please check the "
+                        "Streamlit application logs for the error details."
                     )
-                except requests.exceptions.HTTPError as error:
-                    answer = f"The API returned an error: {error}"
-                except requests.exceptions.RequestException as error:
-                    answer = f"API request failed: {error}"
-                except ValueError:
-                    answer = "The backend returned an invalid response."
 
             st.markdown(answer)
 
