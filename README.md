@@ -4,8 +4,7 @@ An AI-powered urban traffic intelligence platform combining multimodal data proc
 
 ## 🚀 Live Application
 
-**Streamlit App:** [Add your deployed Streamlit Cloud URL here]
-
+**Live Demo:** [UrbanPulseAI](https://multimodal-rag--urbanpulseai-78jgabwgjk4xil3jyjiygm.streamlit.app/)
 **GitHub Repository:** https://github.com/PurpleCoder-23/Multimodal-RAG--UrbanPulseAI
 
 ---
