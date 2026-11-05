@@ -44,7 +44,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 from scripts.urbanpulse_agent import build_urbanpulse_agent
 
 ROAD_GEOJSON_PATH = (
-    PROJECT_ROOT / "data" / "maps" / "hyderabad_road_segments.geojson"
+    PROJECT_ROOT / "data" / "Maps" / "hyderabad_road_segments.geojson"
 )
 TRAFFIC_CSV_PATH = (
     PROJECT_ROOT / "data" / "traffic" / "synthetic_traffic_records.csv"
